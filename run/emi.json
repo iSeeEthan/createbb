@@ -1,0 +1,31 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:minecraft:granite_wall",
+    "item:minecraft:cherry_fence",
+    "item:create:mechanical_roller",
+    "item:create:crushing_wheel",
+    "item:minecraft:apple",
+    {
+      "type": "fluid",
+      "id": "minecraft:water",
+      "amount": 0
+    },
+    "item:create:small_veridium_brick_wall",
+    "item:create:scoria_pillar",
+    "item:create:cut_tuff_stairs",
+    "item:create:polished_cut_asurine_wall",
+    "item:create:polished_cut_limestone_wall",
+    "item:create:small_ochrum_bricks",
+    "item:minecraft:stripped_spruce_wood",
+    "item:minecraft:light_blue_bed"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

@@ -1,0 +1,143 @@
+[01Jul2025 15:22:45.743] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.186, --assetIndex, 17, --assetsDir, C:\\Users\\ethan\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.41, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.186, --fml.neoFormVersion, 20240808.144430]
+[01Jul2025 15:22:45.744] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[01Jul2025 15:22:45.746] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[01Jul2025 15:22:45.849] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[01Jul2025 15:22:45.939] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[01Jul2025 15:22:46.047] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[01Jul2025 15:22:46.126] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/ethan/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[01Jul2025 15:22:46.254] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 572.83, NVIDIA Corporation
+[01Jul2025 15:22:46.416] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
+[01Jul2025 15:22:46.417] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Create 6.0.6 (create)
+		Create: Broken Bad Continued 1.0.0 (createbb)
+		EMI 1.1.22+1.21.1+neoforge (emi)
+		Flywheel 1.0.4 (flywheel)
+		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
+		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
+		Forgified Fabric Renderer API (v1) 3.4.0+9c40919e19 (fabric_renderer_api_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19 (fabric_rendering_data_attachment_v1)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.186 (neoforge)
+		Ponder 1.0.56 (ponder)
+		Sodium 0.6.13+mc1.21.1 (sodium)
+[01Jul2025 15:22:46.946] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Jul2025 15:22:46.948] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[01Jul2025 15:22:46.963] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.186, --gameDir, ., --assetsDir, C:\Users\ethan\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[01Jul2025 15:22:47.040] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 0 override(s) found
+[01Jul2025 15:22:47.048] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2025 15:22:47.049] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2025 15:22:47.049] [main/WARN] [mixin/]: Reference map 'create.refmap.json' for create.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2025 15:22:47.189] [main/WARN] [mixin/]: Error loading class: mezz/jei/library/load/PluginCaller (java.lang.ClassNotFoundException: mezz.jei.library.load.PluginCaller)
+[01Jul2025 15:22:47.443] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01Jul2025 15:22:48.954] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 312 milliseconds
+[01Jul2025 15:22:52.725] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Jul2025 15:22:52.726] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Jul2025 15:22:52.727] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Jul2025 15:22:52.727] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Jul2025 15:22:52.728] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Jul2025 15:22:52.857] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/ethan/Downloads/createbb/build/moddev/artifacts/neoforge-21.1.186.jar%23192!/assets/.mcassetsroot' uses unexpected schema
+[01Jul2025 15:22:52.857] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/ethan/Downloads/createbb/build/moddev/artifacts/neoforge-21.1.186.jar%23192!/data/.mcassetsroot' uses unexpected schema
+[01Jul2025 15:22:52.878] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01Jul2025 15:22:52.886] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[01Jul2025 15:22:52.963] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[01Jul2025 15:22:53.001] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Vendor: NVIDIA Corporation
+[01Jul2025 15:22:53.001] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Renderer: NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2
+[01Jul2025 15:22:53.001] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Version: 4.6.0 NVIDIA 572.83
+[01Jul2025 15:22:53.003] [Render thread/INFO] [Sodium-NvidiaWorkarounds/]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+[01Jul2025 15:22:53.271] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.186, for MC 1.21.1
+[01Jul2025 15:22:53.439] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 20ad05b5e525166018d21e88c96986f867c7088f
+[01Jul2025 15:22:55.386] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [createbb]
+[01Jul2025 15:22:55.561] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/sodium, mod/emi, mod/fabric_renderer_api_v1, mod/fabric_api_base, mod/fabric_rendering_data_attachment_v1, mod/flywheel, mod/ponder, mod/create, mod/createbb, mod/neoforge, mod/fabric_block_view_api_v2
+[01Jul2025 15:22:55.707] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[01Jul2025 15:22:55.707] [Worker-Main-26/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[01Jul2025 15:22:57.809] [Worker-Main-14/INFO] [PonderIndex/]: Registering Ponder Scenes took 81.47 ms
+[01Jul2025 15:22:57.812] [Worker-Main-14/INFO] [PonderIndex/]: Registering Ponder Tags took 2.908 ms
+[01Jul2025 15:22:57.895] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='brass_call_bell_ding', args=[]} for sound event: createbb:brass_call_bell_ding
+[01Jul2025 15:22:57.895] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[01Jul2025 15:22:57.895] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[01Jul2025 15:22:57.937] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (Crusher Evo)
+[01Jul2025 15:22:57.938] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[01Jul2025 15:22:57.990] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[01Jul2025 15:22:58.007] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[01Jul2025 15:22:58.008] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[01Jul2025 15:22:58.008] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[01Jul2025 15:22:58.008] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[01Jul2025 15:22:58.011] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[01Jul2025 15:22:58.011] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[01Jul2025 15:22:58.011] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[01Jul2025 15:22:58.011] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[01Jul2025 15:22:58.078] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[01Jul2025 15:22:58.079] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[01Jul2025 15:22:58.080] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[01Jul2025 15:22:58.080] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[01Jul2025 15:22:58.080] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[01Jul2025 15:22:58.101] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[01Jul2025 15:22:58.162] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 12.647 ms
+[01Jul2025 15:22:58.187] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 58 train hat configurations.
+[01Jul2025 15:22:58.187] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[01Jul2025 15:23:08.528] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[01Jul2025 15:23:08.533] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[01Jul2025 15:23:09.141] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 2781 recipes
+[01Jul2025 15:23:09.278] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2475 advancements
+[01Jul2025 15:23:09.778] [Render thread/INFO] [EMI/]: [EMI] Recipes synchronized, waiting for tags to reload EMI...
+[01Jul2025 15:23:09.825] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[01Jul2025 15:23:09.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Jul2025 15:23:10.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Jul2025 15:23:10.619] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jul2025 15:23:10.691] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 258 ms
+[01Jul2025 15:23:10.691] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[01Jul2025 15:23:10.750] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[01Jul2025 15:23:10.750] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[01Jul2025 15:23:11.062] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[01Jul2025 15:23:11.063] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[01Jul2025 15:23:11.154] [Render thread/INFO] [EMI/]: [EMI] Recipes synchronized, waiting for tags to reload EMI...
+[01Jul2025 15:23:11.250] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:0f7eb939] logged in with entity id 53 at (-21.706572101567996, 66.24341321608179, -45.39049199842711)
+[01Jul2025 15:23:11.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[01Jul2025 15:23:11.477] [Render thread/INFO] [ChunkBuilder/]: Started 10 worker threads
+[01Jul2025 15:23:11.595] [Render thread/INFO] [flywheel/]: Started 10 worker threads
+[01Jul2025 15:23:11.643] [Render thread/INFO] [EMI/]: [EMI] Tags synchronized, reloading EMI
+[01Jul2025 15:23:11.643] [Render thread/INFO] [EMI/]: [EMI] Starting Reload
+[01Jul2025 15:23:11.644] [Thread-12/INFO] [EMI/]: [EMI] Starting EMI reload...
+[01Jul2025 15:23:11.645] [Thread-12/INFO] [EMI/]: [EMI] Clearing data
+[01Jul2025 15:23:11.682] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 60 advancements
+[01Jul2025 15:23:11.747] [Thread-12/INFO] [EMI/]: [EMI] Initializing plugin from emi
+[01Jul2025 15:23:11.769] [Thread-12/INFO] [EMI/]: [EMI] Initialized plugin from emi in 17ms
+[01Jul2025 15:23:11.773] [Thread-12/INFO] [EMI/]: [EMI] Processing tags
+[01Jul2025 15:23:11.795] [Thread-12/INFO] [EMI/]: [EMI] Constructing index
+[01Jul2025 15:23:11.800] [Thread-12/INFO] [EMI/]: [EMI] Reloading item groups on client thread...
+[01Jul2025 15:23:12.209] [Thread-12/INFO] [EMI/]: [EMI] Reloading item groups on client thread took 409ms
+[01Jul2025 15:23:12.217] [Thread-12/INFO] [EMI/]: [EMI] Loading plugin from emi
+[01Jul2025 15:23:12.430] [Thread-12/INFO] [EMI/]: [EMI] Reloaded plugin from emi in 213ms
+[01Jul2025 15:23:12.430] [Thread-12/INFO] [EMI/]: [EMI] Baking index
+[01Jul2025 15:23:12.461] [Thread-12/INFO] [EMI/]: [EMI] Registering late recipes
+[01Jul2025 15:23:12.462] [Thread-12/INFO] [EMI/]: [EMI] Baking recipes
+[01Jul2025 15:23:12.564] [Thread-12/INFO] [EMI/]: [EMI] Baked 4488 recipes in 95ms
+[01Jul2025 15:23:12.577] [Thread-12/INFO] [EMI/]: [EMI] Baking search
+[01Jul2025 15:23:12.589] [Thread-14/INFO] [EMI/]: [EMI] Baked recipes after reload in 31ms
+[01Jul2025 15:23:12.700] [Thread-12/INFO] [EMI/]: [EMI] Finishing up
+[01Jul2025 15:23:12.757] [Thread-12/INFO] [EMI/]: [EMI] Reloaded EMI in 1112ms
+[01Jul2025 15:23:16.213] [Render thread/WARN] [Sodium-VertexConsumerTracker/]: Class dev.emi.emi.screen.StackBatcher$UnlitFacade$Consumer does not support optimized vertex writing code paths, which may cause reduced rendering performance
+[01Jul2025 15:23:25.594] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[01Jul2025 15:23:25.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[01Jul2025 15:23:25.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[01Jul2025 15:23:25.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[01Jul2025 15:23:25.781] [Render thread/INFO] [EMI/]: [EMI] Disconnecting from server, EMI data cleared
+[01Jul2025 15:23:25.781] [Thread-18/INFO] [EMI/]: [EMI] Clearing data
+[01Jul2025 15:23:25.797] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[01Jul2025 15:23:25.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[01Jul2025 15:23:25.808] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[01Jul2025 15:23:25.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Jul2025 15:23:25.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Jul2025 15:23:25.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Jul2025 15:23:25.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[01Jul2025 15:23:26.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[01Jul2025 15:23:26.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[01Jul2025 15:23:26.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[01Jul2025 15:23:26.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Jul2025 15:23:26.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Jul2025 15:23:26.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Jul2025 15:23:26.073] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[01Jul2025 15:23:28.553] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
